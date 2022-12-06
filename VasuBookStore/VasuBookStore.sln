@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuBookStore", "VasuBookStore\VasuBookStore.csproj", "{53B8DC64-1AE9-4E97-851D-6A1A88845080}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuBookStore", "VasuBookStore\VasuBookStore.csproj", "{18CDCAB1-AA45-4429-AA3B-4A3B5CCAB504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53B8DC64-1AE9-4E97-851D-6A1A88845080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53B8DC64-1AE9-4E97-851D-6A1A88845080}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53B8DC64-1AE9-4E97-851D-6A1A88845080}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53B8DC64-1AE9-4E97-851D-6A1A88845080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CDCAB1-AA45-4429-AA3B-4A3B5CCAB504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CDCAB1-AA45-4429-AA3B-4A3B5CCAB504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CDCAB1-AA45-4429-AA3B-4A3B5CCAB504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CDCAB1-AA45-4429-AA3B-4A3B5CCAB504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0EE49134-6943-4BD8-8014-38F7B5C10687}
+		SolutionGuid = {EFE0929B-87B0-4A96-8876-B31095871C6A}
 	EndGlobalSection
 EndGlobal
