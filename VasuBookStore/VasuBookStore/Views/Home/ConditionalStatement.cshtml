@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ConditionalStatement</title>
+</head>
+<body>
+    <h1> COnditional Statements</h1>
+    @{
+        int a=10;
+    }
+    @if(a>5)
+    {
+        //@a++ --> // we are getting this error because of continous [@] symbol. Remove (@).
+        //If we want to write the C# code in contionous manner then we have don't use '@'.
+        a++;
+        <h1>Value = @a</h1>
+        <h1>Hello from if block.</h1>
+    }
+    else
+    {
+        <h1>Hello from else block.</h1>
+    }
+    @{
+        int x = 20;
+        int y = 0;
+    }
+    <h1>Ternary operator - @(x==20 ? y=10: y=4)</h1>
+    <h1>Value of y = @y</h1>
+
+   @{ 
+       int xyz= 2;
+   }
+  @switch (xyz)
+    {
+            case 1:<h1>This is case 1</h1>
+            break;
+            case 2: <h1>This is case 2</h1>
+            break;
+            case 3:<h1>This is case 3 </h1>
+            break;
+            default:<h1>This is case 4 </h1>
+            break;
+    }
+</body>
+</html>

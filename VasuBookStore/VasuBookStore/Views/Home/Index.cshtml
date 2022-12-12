@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null; //It is a property of ****RAZORPAGEBASE**** Class. 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1> welcome to Home controller Index page.</h1>
+    <h1>@DateTime.DaysInMonth(1996,4)</h1>
+    <h1>@DateTime.Now.ToString("dd-MM-yyyy")</h1>
+
+  @* <h2>sum = @3+2 </h2>  This will give an error. *@
+  <h1> SINGLE LINE SYNTAX </h1>
+     <h2>Sum = @(3+2)</h2>  
+     <hr />
+     <h1>MULTILINE SYNTAX:</h1>
+    @{
+        int a = 20;
+        int b = 23;
+        int c=a+b;
+     }
+     <h1>@c</h1>
+
+     @* *** HOW TO WRITE EMAIL ON VIEW. *** *@
+     
+    <h1>EMail ID : Sudhanshu@gmail.com</h1> @*[inside email id (@) is not take it as C# code start.]*@
+
+    <h1> Escape sequence</h1>  @* --> Used when ecer we need to print @ on our view.e.g: @Twitteraccount, @taguser. *@
+        <h3>@@Sudhanshu</h3>
+</body>
+</html>

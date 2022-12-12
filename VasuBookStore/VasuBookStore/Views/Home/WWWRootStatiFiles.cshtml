@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WWWRootStatiFiles</title>
+    <link href="~/css/Site.css" rel="stylesheet" />  @*### Adding Css Reference ###*@
+</head>
+<body>
+ @* Here in path there is no need of [wwwroot/images/fb_icon.png] because this folder is the default content folder of the application.So, there is no need wwwroot*@
+<img src="~/images/fb_icon.png" class="logo" alt="FB_LOGO" />
+
+@* But , to call this we have to add [ *** app.useStaticFiles(); ****] method.*@
+
+@*  ***** CALLING FROM ANOTHER FOLDER *********@
+<img src="~/StaticFiles/fb_logo.png" />  
+@* For this we have to do some changes in useStaticFiles() *@
+
+</body>
+</html>
